@@ -1,8 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  margin: 0;
   background-color: #0F1013;
   color: white;
-  max-width: 1440px;
   margin: auto;
-  padding: 0 20px;
+  position: relative;
 }

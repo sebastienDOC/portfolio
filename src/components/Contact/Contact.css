@@ -1,0 +1,32 @@
+.contact-ctn {
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 50px auto;
+    gap: 10px;
+}
+.contact-coordonnees {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1d8278;
+    padding: 25px;
+    border-radius: 20px;
+}
+.contact-icons-title {
+    text-align: center;
+    margin-top: 0;
+}
+.contact-reseaux {
+    display: flex;
+    gap: 20px;
+    background-color: #1d8278;
+    padding: 0 25px;
+    border-radius: 20px;
+}

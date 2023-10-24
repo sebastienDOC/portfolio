@@ -1,0 +1,16 @@
+/* Présentation */
+.presentation-ctn {
+    width: 80%;
+    margin: 50px auto;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+.presentation-img {
+    height: 400px;
+    border-radius: 25px;
+}
+.presentation-flex_col {
+    display: flex;
+    flex-direction: column;
+}

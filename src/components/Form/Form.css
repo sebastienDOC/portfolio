@@ -1,0 +1,36 @@
+.contact-form {
+    width: 35%;
+    border-radius: 20px;
+}
+.contact-form-title{
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 55px 0;
+    gap: 20px;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.contact-form-btn {
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding: 15px;
+    cursor: pointer;
+}

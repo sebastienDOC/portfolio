@@ -1,0 +1,47 @@
+[
+    {
+        "contact": [
+            {
+                "id": "1",
+                "cover": "https://i.ibb.co/tKS4Zf3/map.png",
+                "alt": "Icone de localisation",
+                "href": "https://maps.app.goo.gl/ZzSuJZP1D15M1Q1q9",
+                "title": "Localisation",
+                "description": "Genlis "
+            },
+            {
+                "id": "2",
+                "cover": "https://i.ibb.co/VWLHRV8/mail.png",
+                "alt": "Icone de mail",
+                "href": "mailto:sebastiendechand@gmail.com",
+                "title": "Envoyer un e-mail",
+                "description": "sebastiendechand@gmail.com"
+            },
+            {
+                "id": "3",
+                "cover": "https://i.ibb.co/cXrM0vW/tel.png",
+                "alt": "Icone de téléphone",
+                "href": "tel:+33623213815",
+                "title": "Numéro de téléphone",
+                "description": "06 23 21 38 15"
+            }
+        ],
+
+        "reseaux": [
+            {
+                "id": "4",
+                "cover": "https://i.ibb.co/PYDXNR0/linkedin.png",
+                "alt": "Logo de Linkedin",
+                "href": "https://www.linkedin.com/in/s%C3%A9bastien-dechand-4653b5265/",
+                "title": "Linkedin"
+            },
+            {
+                "id": "5",
+                "cover": "https://i.ibb.co/0hLCpYr/github.png",
+                "alt": "Logo de GitHub",
+                "href": "https://github.com/sebastienDOC",
+                "title": "GitHub"
+            }
+        ]
+    }
+]
