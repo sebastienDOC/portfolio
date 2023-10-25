@@ -14,14 +14,14 @@ section h2 {
 .home-skills-grid {
     width: 80%;
     margin: 50px auto;
-    padding: 25px;
+    padding: 25px 0;
     gap: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     border-radius: 25px;
-    background-color: #26A499;
+    background-color: #1E8278;
 }
 /* Projet */
 /* Contact */

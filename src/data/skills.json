@@ -1,13 +1,13 @@
 [
     {
         "id": "1",
-        "cover": "https://i.ibb.co/rdNctDY/html.png",
+        "cover": "https://i.ibb.co/z7Jch0L/html.png",
         "alt": "Logo HTML",
         "title": "HTML 5"
     },
     {
         "id": "2",
-        "cover": "https://i.ibb.co/xX78Jkg/css.png",
+        "cover": "https://i.ibb.co/7jCM5YC/css.png",
         "alt": "Logo CSS",
         "title": "CSS 3"
     },
@@ -19,7 +19,7 @@
     },
     {
         "id": "4",
-        "cover": "https://i.ibb.co/q5wyWnQ/js.png",
+        "cover": "https://i.ibb.co/kQHbstH/js.png",
         "alt": "Logo JavaScript",
         "title": "JavaScript"
     },

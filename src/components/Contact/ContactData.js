@@ -21,6 +21,5 @@ export default function ContactData({id, cover, alt, href, title, description}) 
                 <p className='contact_data-txt'>{description}</p>
             </div>
         </div>
-
     )
 }

@@ -1,7 +1,7 @@
 // CSS
 import './Form.css'
 // EmailJS
-import { useRef, useState } from "react";
+import { useRef} from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Form() {
