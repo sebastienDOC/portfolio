@@ -3,14 +3,17 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.5s;
+    position: relative;
 }
 .collapse-btn{
     width: 100%;
+    height: 300px;
     border-radius: 25px;
     padding: 0;
     border: none;
     background: none;
     cursor: pointer;
+    overflow: hidden;
 }
 .collapse-btn:focus,
 .collapse-btn:active{
@@ -19,11 +22,33 @@
 }
 .collapse-img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     object-position: top;
     border: none;
     border-radius: 25px;
+}
+.collapse-dropup {
+    position:absolute;
+    bottom: 0;
+    height : 0;	
+	width: 100%;
+    background-color: #1E8278;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    transition: height 0.7s;
+    color: white;
+}
+.collapse-btn:hover .collapse-dropup {
+    height : 35%;	
+    transition: height 0.7s;
+    cursor: auto;
+}
+.collapse-title {
+    text-align: center;
 }
 .collapse-content {
     display: flex;
@@ -31,20 +56,19 @@
     z-index: 99;
     top: 80px;
     height: 100%;
-    width: 0;
-    right: 0;
+    width: 100vw;
+    right: -100vw;
     overflow: hidden;
-    background-color: #1E8278;
-    background: rgba(0,0,0,0.5);
-    transition: width 0.5s ease-in-out;
+    transition: all 0.7s ease;
 }
 .open {
-    width: 100vw;
-    transition: width 0.5s ease-in-out; 
+    right: 0;
+    transition: all 0.7s ease; 
 }
 .collapse-content-bg {
     width: 60vw;
-    background: rgba(30,130,120,0.1);
+    opacity: 0.5;
+    background-color: black;
 }
 .collapse-content-txt {
     background-color: #1E8278;
@@ -79,6 +103,9 @@
     display: flex;
     justify-content: end;
     gap: 10px;
+}
+.collapse-dropup .collapse-ctn-icons {
+    justify-content: center;
 }
 .collapse-icons {
     height: 30px;

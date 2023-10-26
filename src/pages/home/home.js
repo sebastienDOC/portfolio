@@ -1,4 +1,6 @@
+// CSS
 import './home.css'
+// Data
 import skills from '../../data/skills.json'
 // Composants
 import Presentation from '../../components/Presentation/Presentation'

@@ -16,7 +16,7 @@ export default function ProjetsData({id, title, sub, cover, alt, banner, altBann
             github={github}
             ghpages={ghpages}
             figma={figma}
-            skills={skills}            
+            skills={skills} 
         />
     )
 }

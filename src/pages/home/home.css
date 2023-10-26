@@ -2,6 +2,9 @@ main {
     max-width: 1440px;
     margin: auto;
 }
+.main {
+    margin: 0 40vw 0 0;
+}
 section {
     scroll-behavior: smooth;
     padding: 0 50px;

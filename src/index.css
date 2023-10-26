@@ -1,9 +1,21 @@
+/* Import des polices de caractère */ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@300;400;700&family=Tenor+Sans&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color: #0F1013;
   color: white;
-  margin: auto;
   position: relative;
+  transition: margin 0.7s;
+}
+h1, h2 {
+  font-family: 'Noto Serif', serif;
+}
+h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
 }
