@@ -15,6 +15,9 @@ export default function Projets() {
                     sub={projet.subtitle}
                     cover={projet.cover}
                     alt={projet.alt}
+                    banner={projet.banner}
+                    altBanner={projet.altBanner} 
+                    client={projet.client}
                     description={projet.description}
                     github={projet.github}
                     ghpages={projet.ghpages}

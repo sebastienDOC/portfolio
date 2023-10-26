@@ -30,12 +30,12 @@
     position: fixed;
     z-index: 99;
     top: 80px;
-    height: 100vh;
+    height: 100%;
     width: 0;
     right: 0;
+    overflow: hidden;
     background-color: #1E8278;
     background: rgba(0,0,0,0.5);
-    overflow: hidden;
     transition: width 0.5s ease-in-out;
 }
 .open {
@@ -44,26 +44,41 @@
 }
 .collapse-content-bg {
     width: 60vw;
-    background: rgba(0,0,0,0.5);
+    background: rgba(30,130,120,0.1);
 }
 .collapse-content-txt {
     background-color: #1E8278;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 40vw;
-    padding: 50px;
+    padding: 50px 50px 100px;
+    overflow: auto;
 }
 .fa-xmark {
     position: absolute;
     top: 25px;
-    right: 25px;
+    left: 25px;
     font-size: 36px;
-    margin-left: 50px;
     cursor: pointer;
+}
+.collapse-banner {
+    width: 75%;
+}
+.collapse-txt {
+    width: 100%;
+    text-align: start;
 }
 .collapse-skills-icons {
     height: 50px;
+    margin: 25px 15px;
+}
+.collapse-ctn-icons {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
 .collapse-icons {
     height: 30px;
