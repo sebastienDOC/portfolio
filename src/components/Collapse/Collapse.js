@@ -6,6 +6,8 @@ import { useState } from 'react';
 import GitHub from '../../assets/contact/github.png'
 import Link from '../../assets/contact/link.png'
 import Figma from '../../assets/contact/figma.png'
+// Motion
+import { motion } from 'framer-motion'
 
 export default function Collapse({key, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills}) {
     // State pour ouverture/fermeture de la collapse
@@ -31,7 +33,7 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
     return (
         <div key={key} className='collapse-ctn'>
             
-            <div className='collapse-btn'>
+            <motion.div layout animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 0.7}} className='collapse-btn'>
                 <img src={getImgCover(cover)} alt={alt} className='collapse-img' onClick={toggle}/>
                 <div className='collapse-dropup'>
                     <h3 className='collapse-title'>{title}</h3>
@@ -48,10 +50,10 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
                         : null}
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
             <div className={`collapse-content ${open ? 'open' : ''}`}>
-                <div className='collapse-content-bg'></div>
+                <div className={`collapse-content-bg ${open ? 'open-bg' : ''}`}></div>
                 <div className='collapse-content-txt'>
                     <i className="fa-solid fa-xmark" onClick={toggle}></i>
                     <img src={getImgCover(banner)} alt={altBanner} className='collapse-banner'/>

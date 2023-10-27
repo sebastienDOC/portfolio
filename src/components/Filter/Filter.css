@@ -1,0 +1,39 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.filter-ctn {
+    display: flex;
+    width: 80%;
+    gap: 2%;
+    margin: 0 0 25px 0;
+}
+.filter-btn {
+    width: 20%;
+    padding: 15px;
+    border: solid #1E8278 2px;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.filter-btn:hover {
+    background-color: #1E8278;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.filter-btn:focus {
+    background-color: #1E8278;
+    transform: scale(1.1);
+}
+.projets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+}

@@ -2,6 +2,25 @@
     {
         "formation": [
             {
+                "id": "9",
+                "title": "Alliance Equine - Équithérapie",
+                "cover": "/Lu_11.jpg",
+                "alt": "Lucie souriante aux côtés de deux chevaux",
+                "banner": "/banner/alliance.jpg",
+                "altBanner": "Logo d'Alliance Équine",
+                "client": "Lucie souhaite développer son activité avec un site web expliquant en détails celle-ci.",
+                "description": "Elle m'a donc expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et green-code.",
+                "github": "https://github.com/sebastienDOC/AllianceEquine",
+                "ghpages": "https://sebastiendoc.github.io/AllianceEquine/",
+                "skills": [
+                    "https://i.ibb.co/dmYXHtQ/react.png",
+                    "https://i.ibb.co/7jCM5YC/css.png",
+                    "https://i.ibb.co/BK9nTJY/pngegg.png"
+                ],
+                "finished" : false,
+                "type": "Professionnel"
+            },
+            {
                 "id": "1",
                 "title": "ArgentBank",
                 "subtitle": "Implémentez le front-end d'une application bancaire avec React",
@@ -18,7 +37,8 @@
                     "https://i.ibb.co/7jCM5YC/css.png",
                     "https://i.ibb.co/bP6Kvkp/swagger.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "2",
@@ -36,7 +56,8 @@
                     "https://i.ibb.co/dmYXHtQ/react.png",
                     "https://i.ibb.co/74cJXqK/sass.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "3",
@@ -56,7 +77,8 @@
                     "https://i.ibb.co/7jCM5YC/css.png",
                     "https://i.ibb.co/BK9nTJY/pngegg.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "4",
@@ -75,7 +97,8 @@
                     "https://i.ibb.co/dmYXHtQ/react.png",
                     "https://i.ibb.co/7jCM5YC/css.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "5",
@@ -94,7 +117,8 @@
                     "https://i.ibb.co/7jCM5YC/css.png",
                     "https://i.ibb.co/z7Jch0L/html.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "6",
@@ -113,7 +137,8 @@
                     "https://i.ibb.co/7jCM5YC/css.png",
                     "https://i.ibb.co/z7Jch0L/html.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "7",
@@ -124,7 +149,7 @@
                 "banner": "/banner/ohmyfood.png",
                 "altBanner": "Logo d'OhMyFood",
                 "client": "OhMyFood est une startup de restauration souhaitant démarrer son activité en se démarquant de ses concurrents.",
-                "description": "Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps. À deux, vous avez pu établir ce brief créatif pour rassembler toutes les informations clés du projet de développement du site.",
+                "description": "Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps. À deux, vous avez pu établir ce brief créatif pour rassembler toutes les inFormations clés du projet de développement du site.",
                 "github": "https://github.com/sebastienDOC/P4-OhMyFood",
                 "ghpages": "https://sebastiendoc.github.io/P4-OhMyFood/",
                 "figma": [
@@ -135,7 +160,8 @@
                     "https://i.ibb.co/74cJXqK/sass.png",
                     "https://i.ibb.co/z7Jch0L/html.png"
                 ],
-                "finished" : true
+                "finished" : true,
+                "type": "Formation"
             },
             {
                 "id": "8",
@@ -154,25 +180,8 @@
                     "https://i.ibb.co/7jCM5YC/css.png",
                     "https://i.ibb.co/z7Jch0L/html.png"
                 ],
-                "finished" : true
-            },
-            {
-                "id": "9",
-                "title": "Alliance Equine - Équithérapie",
-                "cover": "/Lu_11.jpg",
-                "alt": "Lucie souriante aux côtés de deux chevaux",
-                "banner": "/banner/alliance.jpg",
-                "altBanner": "Logo d'Alliance Équine",
-                "client": "Lucie souhaite développer son activité avec un site web expliquant en détails celle-ci.",
-                "description": "Elle m'a donc expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et green-code.",
-                "github": "https://github.com/sebastienDOC/AllianceEquine",
-                "ghpages": "https://sebastiendoc.github.io/AllianceEquine/",
-                "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/BK9nTJY/pngegg.png"
-                ],
-                "finished" : false
+                "finished" : true,
+                "type": "Formation"
             }
         ]       
     }

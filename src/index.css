@@ -3,15 +3,21 @@
 
 html {
   scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body {
+  max-width: 1920px;
   background-color: #0F1013;
   color: white;
   position: relative;
   transition: margin 0.7s;
+  overflow-x: hidden;
 }
 h1, h2 {
   font-family: 'Noto Serif', serif;
+  margin-top: 0;
 }
 h3, h4 {
   font-family: 'Roboto', sans-serif;

@@ -17,20 +17,41 @@ form {
 input {
     width: 90%;
     padding: 10px;
-    border: none;
     border-radius: 10px;
+    border: solid #1E8278 2px;
+    border-radius: 1rem;
+    background: none;
+    color: white;
 }
 textarea {
     width: 90%;
     height: 150px;
     padding: 10px;
-    border: none;
-    border-radius: 10px;
+    border: solid #1E8278 2px;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+}
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+input:focus,
+textarea:focus {
+    background-color: #1E8278;
 }
 .contact-form-btn {
-    border: none;
-    border-radius: 10px;
     width: 30%;
     padding: 15px;
     cursor: pointer;
+    border: solid #1E8278 2px;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+    transition: all 0.5s;
+}
+.contact-form-btn:hover {
+    background-color: #1E8278;
+    transform: scale(1.2);
+    transition: all 0.5s;
 }

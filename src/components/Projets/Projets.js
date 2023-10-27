@@ -1,31 +1,22 @@
-// CSS
-import './Projets.css'
-// Data
-import projets from '../../data/projets.json'
-// Composant(s)
-import ProjetsData from './ProjetsData'
+// Composants 
+import Collapse from '../Collapse/Collapse'
 
-export default function Projets() {
+export default function Projets({id, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills}) {
     return (
-        <div className='projets-grid'>
-            {projets[0].formation.map((projet) => 
-                <ProjetsData 
-                    key={projet.id}
-                    title={projet.title}
-                    sub={projet.subtitle}
-                    cover={projet.cover}
-                    alt={projet.alt}
-                    banner={projet.banner}
-                    altBanner={projet.altBanner} 
-                    client={projet.client}
-                    description={projet.description}
-                    github={projet.github}
-                    ghpages={projet.ghpages}
-                    figma={projet.figma}
-                    skills={projet.skills}
-                    finished={projet.finished}
-                />
-            )}
-        </div>
+        <Collapse  
+            key={id}
+            title={title}
+            sub={sub}
+            cover={cover}
+            alt={alt}
+            banner={banner}
+            altBanner={altBanner}
+            client={client}
+            description={description}
+            github={github}
+            ghpages={ghpages}
+            figma={figma}
+            skills={skills} 
+        />
     )
 }

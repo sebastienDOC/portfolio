@@ -12,7 +12,11 @@ section {
 section h2 {
     text-align: center;
 }
-
+.separate {
+    width: 50%;
+    margin: 0 auto 50px;
+    border-bottom: solid #1E8278 3px;
+}
 /* Compétences */
 .home-skills-grid {
     width: 80%;

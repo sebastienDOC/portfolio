@@ -63,13 +63,18 @@
 }
 .open {
     right: 0;
+    opacity: 1;
     transition: all 0.7s ease; 
 }
 .collapse-content-bg {
     width: 60vw;
-    opacity: 0.5;
+    opacity: 0;
     background-color: black;
 }
+.open-bg {
+    opacity: 0.5;
+}
+
 .collapse-content-txt {
     background-color: #1E8278;
     position: relative;
