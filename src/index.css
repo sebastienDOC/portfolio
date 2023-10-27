@@ -17,11 +17,71 @@ body {
 }
 h1, h2 {
   font-family: 'Noto Serif', serif;
-  margin-top: 0;
+  margin: 0;
+  font-size: 36px;
+  color: #1E8278;
 }
-h3, h4 {
+h3, h4, a, p {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
-p {
-  font-family: 'Roboto', sans-serif;
+h3 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px){
+  h1, h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  a, p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px){
+  h1, h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  a, p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px){
+  h1, h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  a, p {
+    font-size: 12px;
+  }
 }

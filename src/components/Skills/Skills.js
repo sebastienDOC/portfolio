@@ -8,7 +8,7 @@ export default function Skills({id, cover, alt, title }) {
                 alt={alt}  
                 className='skills-img'
             />
-            <h3 className='skills-title'>{title}</h3>
+            <h4 className='skills-title'>{title}</h4>
         </div>
 	)
 }

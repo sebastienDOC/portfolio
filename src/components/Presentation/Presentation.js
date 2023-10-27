@@ -6,7 +6,7 @@ export default function Presentation() {
         <div className='presentation-ctn'>
             <img src={Seb} alt='Photo de Sébastien' className='presentation-img'/>
             <div className='presentation-flex_col'>
-                <h3>Je m'appelle Sébastien Dechand, développeur Web Front-End</h3>
+                <h3>Je m'appelle Sébastien Dechand, Développeur Web Front-End</h3>
                 <p>
                     Suite à 10 ans d'expérience dans la grande distribution, j'ai souhaité me reconvertir dans le développement web. <br/>
                     <br/>

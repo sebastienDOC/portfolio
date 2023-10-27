@@ -20,21 +20,20 @@
 .skills-img {
     height: 80px;
 }
-.skills-title {
 
-}
-
+/* Responsive */
 @media screen and (max-width: 1000px){
-    .skills-ctn {
-
-    }
     .skills-img {
         height: 60px;
     }
 }
 @media screen and (max-width: 800px){
-
+    .skills-img {
+        height: 50px;
+    }
 }
 @media screen and (max-width: 500px){
-
+    .skills-img {
+        height: 40px;
+    }
 }

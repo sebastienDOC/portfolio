@@ -27,7 +27,7 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
         document.body.style.margin = "0 40vw 0 0";
     } else {
         document.body.style.overflow = "initial";
-        document.body.style.margin = "0 10px";
+        document.body.style.margin = "0";
     }
 
     return (
