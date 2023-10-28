@@ -1,4 +1,4 @@
-// Composants 
+// Composant
 import Collapse from '../Collapse/Collapse'
 
 export default function Projets({id, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills}) {

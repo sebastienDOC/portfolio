@@ -1,10 +1,13 @@
+// CSS
+import './index.css';
+// React
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// Composants
 import Header from "./components/Header/Header";
-import Copyright from "./components/Copyright/Copyright";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/home/home";
+import Copyright from "./components/Copyright/Copyright";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

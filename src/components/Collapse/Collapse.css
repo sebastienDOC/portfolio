@@ -78,20 +78,7 @@ h4.collapse-title {
     right: -100vw;
     overflow: hidden;
     transition: all 0.7s ease;
-}
-.open {
-    right: 0;
-    opacity: 1;
-    transition: all 0.7s ease; 
-}
-.collapse-content-bg {
-    width: 60vw;
-    height: 100vh;
     opacity: 0;
-    background-color: black;
-}
-.open-bg {
-    opacity: 0.5;
 }
 .collapse-content-txt {
     background-color: #1E8278;
@@ -104,6 +91,22 @@ h4.collapse-title {
     padding: 50px;
     margin-bottom: 50px;
     overflow: auto;
+}
+.open {
+    right: 0;
+    opacity: 1;
+    transition: right 0.7s ease; 
+}
+.collapse-content-bg {
+    width: 60vw;
+    height: 100vh;
+    opacity: 0.1;
+    background-color: black;
+    transition: all 0.7s ease; 
+}
+.open-bg {
+    opacity: 0.5;
+    transition: all 0.7s ease; 
 }
 .fa-xmark {
     position: absolute;
@@ -160,6 +163,9 @@ h4.collapse-title {
     }
     .collapse-content-txt {
         width: 75vw;
+    }
+    .collapse-dropup {
+        display: none;
     }
     .collapse-txt {
         display: flex;

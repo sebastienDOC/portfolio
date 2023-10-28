@@ -1,6 +1,6 @@
 // Data
 import contact from '../../data/contact.json'
-// Composant
+// Composants
 import ContactData from './ContactData'
 import Form from '../Form/Form'
 // CSS

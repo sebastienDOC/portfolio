@@ -48,6 +48,7 @@ img.nav-logo {
     display: none;
 }
 
+/* Responsive */
 @media screen and (max-width: 800px){
     nav {
         justify-content: space-between;

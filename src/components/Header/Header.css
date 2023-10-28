@@ -13,6 +13,7 @@ img.banniere-logo{
     height: 300px;
 }
 
+/* Responsive */
 @media screen and (max-width: 800px){
     .header-banniere {
         height: 300px;

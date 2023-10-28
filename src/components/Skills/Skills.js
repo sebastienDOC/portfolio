@@ -1,3 +1,4 @@
+// CSS
 import './Skills.css'
 
 export default function Skills({id, cover, alt, title }) {

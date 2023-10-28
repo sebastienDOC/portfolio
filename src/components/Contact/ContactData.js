@@ -1,3 +1,4 @@
+// CSS
 import './ContactData.css'
 
 export default function ContactData({id, cover, alt, href, title, description}) {
