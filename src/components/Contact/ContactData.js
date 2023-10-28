@@ -2,6 +2,10 @@
 import './ContactData.css'
 
 export default function ContactData({id, cover, alt, href, title, description}) {
+    function getImgCover(img) {
+        let images = require("../../assets/contact" + img);
+        return images;
+    }
     return (
         <div className='contact_data-ctn'>
             <a 
@@ -12,7 +16,7 @@ export default function ContactData({id, cover, alt, href, title, description}) 
                     rel="noreferrer"
                 >
                     <img 
-                        src={cover}
+                        src={getImgCover(cover)}
                         alt={alt} 
                         className="contact_data-img" 
                     />

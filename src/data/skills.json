@@ -1,49 +1,49 @@
 [
     {
         "id": "1",
-        "cover": "https://i.ibb.co/z7Jch0L/html.png",
+        "cover": "/html.webp",
         "alt": "Logo HTML",
         "title": "HTML 5"
     },
     {
         "id": "2",
-        "cover": "https://i.ibb.co/7jCM5YC/css.png",
+        "cover": "/css.webp",
         "alt": "Logo CSS",
         "title": "CSS 3"
     },
     {
         "id": "3",
-        "cover": "https://i.ibb.co/74cJXqK/sass.png",
+        "cover": "/sass.webp",
         "alt": "Logo SASS",
         "title": "SASS"
     },
     {
         "id": "4",
-        "cover": "https://i.ibb.co/kQHbstH/js.png",
+        "cover": "/js.webp",
         "alt": "Logo JavaScript",
         "title": "JavaScript"
     },
     {
         "id": "5",
-        "cover": "https://i.ibb.co/dmYXHtQ/react.png",
+        "cover": "/react.webp",
         "alt": "Logo React",
         "title": "React"
     },
     {
         "id": "6",
-        "cover": "https://i.ibb.co/Cmtpcmb/redux.png",
+        "cover": "/redux.webp",
         "alt": "Logo Redux",
         "title": "Redux"
     },
     {
         "id": "7",
-        "cover": "https://i.ibb.co/1vmJ2Tw/github.png",
+        "cover": "/github.webp",
         "alt": "Logo Github",
         "title": "GitHub"
     },
     {
         "id": "8",
-        "cover": "https://i.ibb.co/bP6Kvkp/swagger.png",
+        "cover": "/swagger.webp",
         "alt": "Logo Swagger",
         "title": "Swagger"
     }

@@ -1,7 +1,7 @@
 // CSS
 import './Header.css'
 // Image
-import logo from '../../assets/logo/logo.png';
+import logo from '../../assets/logo/logo.webp';
 
 export default function Header() {
     return (

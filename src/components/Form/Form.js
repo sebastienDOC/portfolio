@@ -26,6 +26,7 @@ export default function Form() {
         <div className='contact-form'>
             <h3 className='contact-form-title'>Formulaire de contact</h3>
             <form ref={form} onSubmit={sendEmail}>
+                <label htmlFor='nom'>Votre nom</label>
                 <input 
                     type="text" 
                     id="nom" 
@@ -33,26 +34,30 @@ export default function Form() {
                     placeholder='Nom *' 
                     required 
                 />
+                <label htmlFor='tel'>Votre numéro de téléphone</label>
                 <input 
                     type="text" 
                     id="tel" 
                     name="tel" 
                     placeholder='Téléphone' 
                 />
+                <label htmlFor='email'>Votre adresse e-mail</label>
                 <input 
                     type="email" 
                     id="email" 
                     name="email"  
-                    placeholder='Votre Email *' 
+                    placeholder='E-mail *' 
                     required 
                 />
+                <label htmlFor='objet'>Objet de la demande</label>
                 <input 
                     type="text" 
-                    id="text" 
+                    id="objet" 
                     name="objet"  
                     placeholder='Objet *' 
                     required 
                 />
+                <label htmlFor='message'>Votre message</label>
                 <textarea 
                     type="textarea" 
                     id="message" 

@@ -4,18 +4,18 @@
             {
                 "id": "9",
                 "title": "Alliance Equine - Équithérapie",
-                "cover": "/Lu_11.jpg",
+                "cover": "/Lu_11.webp",
                 "alt": "Lucie souriante aux côtés de deux chevaux",
-                "banner": "/banner/alliance.jpg",
+                "banner": "/banner/alliance.webp",
                 "altBanner": "Logo d'Alliance Équine",
                 "client": "Lucie souhaite développer son activité avec un site web expliquant en détails celle-ci.",
                 "description": "Lucie m'a expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et green-code.",
                 "github": "https://github.com/sebastienDOC/AllianceEquine",
                 "ghpages": "https://sebastiendoc.github.io/AllianceEquine/",
                 "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/BK9nTJY/pngegg.png"
+                    "/react.webp",
+                    "/css.webp",
+                    "/seo.webp"
                 ],
                 "finished" : false,
                 "type": "Professionnel"
@@ -24,18 +24,18 @@
                 "id": "1",
                 "title": "ArgentBank",
                 "subtitle": "Implémentez le front-end d'une application bancaire avec React",
-                "cover": "/argent_bank.jpeg",
+                "cover": "/argent_bank.webp",
                 "alt": "Un pot de fleur posé sur une table",
-                "banner": "/banner/argent.png",
+                "banner": "/banner/argent.webp",
                 "altBanner": "Logo d'ArgentBank sur un fond vert",
                 "client": "ArgentBank est une banque en ligne qui souhaite évoluer dans le secteur bancaire.",
                 "description": "ArgentBank me contact pour développer son site web. La mission se déroule en deux phases. Phase 1 : sur la base du site statique, je dois développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : je dois mettre au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
                 "github": "https://github.com/sebastienDOC/ArgentBank",
                 "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/Cmtpcmb/redux.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/bP6Kvkp/swagger.png"
+                    "/react.webp",
+                    "/redux.webp",
+                    "/css.webp",
+                    "/swagger.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -44,17 +44,16 @@
                 "id": "2",
                 "title": "77 Events",
                 "subtitle": "Débuggez le site d'une agence d'événementiel",
-                "cover": "/77_events.png",
+                "cover": "/77_events.webp",
                 "alt": "Photo prise lors d'un évènement organisé par l'entreprise 77 Events",
-                "banner": "/banner/77-event.png",
+                "banner": "/banner/77-event.webp",
                 "altBanner": "Logo de 77 Events",
                 "client": "77 Events est une entreprise d'évenementiel qui souhaite faire corriger les bugs de sont site web.",
                 "description": "Vous êtes développeur front-end freelance, et l’agence évènementielle 77 Events vous contacte pour une mission. L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 77 Events fait donc appel à vous pour finaliser le travail.                Vous rencontrez Jean-Baptiste, le directeur Marketing de l’agence, en visioconférence pour qu’il vous présente plus précisément le projet. ",
                 "github": "https://github.com/sebastienDOC/77-Events",
-                "ghpages": "https://sebastiendoc.github.io/77-Events/",
                 "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/74cJXqK/sass.png"
+                    "/react.webp",
+                    "/sass.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -63,7 +62,7 @@
                 "id": "3",
                 "title": "Nina Carducci",
                 "subtitle": "Optimisez le référencement d'un site de photographe",
-                "cover": "/nina.png",
+                "cover": "/nina.webp",
                 "alt": "Photo portrait de Nina Carducci",
                 "banner": "/banner/nina.webp",
                 "altBanner": "Une photo d'un homme traversant sur un passage piéton",
@@ -73,9 +72,9 @@
                 "ghpages": "https://sebastiendoc.github.io/NinaCarducci/",
                 "figma": "https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf",
                 "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/BK9nTJY/pngegg.png"
+                    "/react.webp",
+                    "/css.webp",
+                    "/seo.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -84,9 +83,9 @@
                 "id": "4",
                 "title": "Kasa",
                 "subtitle": "Créez une application web de location immobilière avec React",
-                "cover": "/kasa.jpg",
+                "cover": "/kasa.webp",
                 "alt": "Photo d'un salon tiré d'une annonce immobilière du site Kasa",
-                "banner": "/banner/kasa.png",
+                "banner": "/banner/kasa.webp",
                 "altBanner": "Logo de Kasa",
                 "client": "Kasa est une startup spécialisée dans la location d'appartements entre particuliers.",
                 "description": "Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année ! Un point est prévu avec la CTO plus tard dans la semaine, mais pour que vous puissiez vous familiariser avec les enjeux de votre mission",
@@ -94,8 +93,8 @@
                 "ghpages": "https://sebastiendoc.github.io/kasa/",
                 "figma": "https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design",
                 "skills": [
-                    "https://i.ibb.co/dmYXHtQ/react.png",
-                    "https://i.ibb.co/7jCM5YC/css.png"
+                    "/react.webp",
+                    "/css.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -104,18 +103,18 @@
                 "id": "5",
                 "title": "Sophie Bluel",
                 "subtitle": "Créez une page web dynamique avec JavaScript",
-                "cover": "/sophie-bluel.png",
+                "cover": "/sophie-bluel.webp",
                 "alt": "Photo portrait de Sophie Bluel",
-                "banner": "/banner/sophieBluel.png",
+                "banner": "/banner/sophieBluel.webp",
                 "altBanner": "Photo portrait de Sophie Bluel avec son logo",
                 "client": "Agence ArchiWebos, Sophie Bluel souhaite dynamiser son site web.",
                 "description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Après la réunion et le mail de Charlotte, vous listez vos 3 missions principales. Vous devez donc développer : la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client) (code à créer de zéro), la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
                 "github": "https://github.com/sebastienDOC/P6-SophieBluel",
                 "figma": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Sophie-Bluel---Desktop?type=design&node-id=0-1&mode=design",
                 "skills": [
-                    "https://i.ibb.co/kQHbstH/js.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/z7Jch0L/html.png"
+                    "/js.webp",
+                    "/css.webp",
+                    "/html.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -124,18 +123,18 @@
                 "id": "6",
                 "title": "Print it",
                 "subtitle": "Premiers pas sur le langage JavaScript",
-                "cover": "/print_it.jpg",
+                "cover": "/print_it.webp",
                 "alt": "Échantillons de couleur",
-                "banner": "/banner/print.png",
+                "banner": "/banner/print.webp",
                 "altBanner": "Logo Print It",
                 "client": "Print It est une entreprise d'impression qui souhaitait renvoyer une meilleure image en dynamisant son site web.",
                 "description": "Vous débutez comme développeur front-end en freelance, et venez de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. La mission est de réaliser un carousel infini au niveau de la bannière du site.",
                 "github": "https://github.com/sebastienDOC/P5-Print-It",
                 "ghpages": "https://sebastiendoc.github.io/P5-Print-It/",
                 "skills": [
-                    "https://i.ibb.co/kQHbstH/js.png",
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/z7Jch0L/html.png"
+                    "/js.webp",
+                    "/css.webp",
+                    "/html.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -144,9 +143,9 @@
                 "id": "7",
                 "title": "OhMyFood",
                 "subtitle": "Améliorez l'interface d'un site mobile avec des animations CSS",
-                "cover": "/ohmyfood.jpg",
+                "cover": "/ohmyfood.webp",
                 "alt": "Photo d'une cliente d'un restaurant dégustant son plat",
-                "banner": "/banner/ohmyfood.png",
+                "banner": "/banner/ohmyfood.webp",
                 "altBanner": "Logo d'OhMyFood",
                 "client": "OhMyFood est une startup de restauration souhaitant démarrer son activité en se démarquant de ses concurrents.",
                 "description": "Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps. À deux, vous avez pu établir ce brief créatif pour rassembler toutes les inFormations clés du projet de développement du site.",
@@ -157,8 +156,8 @@
                     "https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?type=design&node-id=0-1&mode=design"
                 ],
                 "skills": [
-                    "https://i.ibb.co/74cJXqK/sass.png",
-                    "https://i.ibb.co/z7Jch0L/html.png"
+                    "/sass.webp",
+                    "/html.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"
@@ -167,9 +166,9 @@
                 "id": "8",
                 "title": "Booki",
                 "subtitle": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-                "cover": "/booki.jpg",
+                "cover": "/booki.webp",
                 "alt": "Photo d'une chambre proposé par le site Booki",
-                "banner": "/banner/booki.png",
+                "banner": "/banner/booki.webp",
                 "altBanner": "Logo de Booki",
                 "client": "Booki est une entreprise souhaitant développer un site web pour la recherche d'hébergements et d'activités.",
                 "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. Sarah vous envoie un e-mail pour vous présenter l’avancée du projet.",
@@ -177,8 +176,8 @@
                 "ghpages": "https://sebastiendoc.github.io/P3_Booki/",
                 "figma": "https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design",
                 "skills": [
-                    "https://i.ibb.co/7jCM5YC/css.png",
-                    "https://i.ibb.co/z7Jch0L/html.png"
+                    "/css.webp",
+                    "/html.webp"
                 ],
                 "finished" : true,
                 "type": "Formation"

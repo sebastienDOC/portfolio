@@ -29,7 +29,7 @@ h1, h2 {
   font-size: 36px;
   color: #1E8278;
 }
-h3, h4, a, p {
+h3, h4, a, p, label {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
@@ -63,7 +63,7 @@ li {
     font-size: 18px;
     margin-bottom: 8px;
   }
-  a, p {
+  a, p, label {
     font-size: 14px;
   }
 }
@@ -78,7 +78,7 @@ li {
   h4 {
     font-size: 16px;
   }
-  a, p {
+  a, p, label {
     font-size: 13px;
   }
 }
@@ -93,7 +93,7 @@ li {
   h4 {
     font-size: 14px;
   }
-  a, p {
+  a, p, label {
     font-size: 12px;
   }
   li {

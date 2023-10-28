@@ -1,7 +1,7 @@
 // CSS
 import './Presentation.css'
 // Image
-import Seb from '../../assets/photo/seb.png'
+import Seb from '../../assets/photo/seb.webp'
 
 export default function Presentation() {
     return (

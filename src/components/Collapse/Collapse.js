@@ -3,9 +3,9 @@ import './Collapse.css'
 // Hooks
 import { useState } from 'react';
 // Images
-import GitHub from '../../assets/contact/github.png'
-import Link from '../../assets/contact/link.png'
-import Figma from '../../assets/contact/figma.png'
+import GitHub from '../../assets/contact/github.webp'
+import Link from '../../assets/contact/link.webp'
+import Figma from '../../assets/contact/figma.webp'
 // Motion
 import { motion } from 'framer-motion'
 
@@ -18,6 +18,10 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
     // Récupération des images 
     function getImgCover(img) {
         let images = require("../../assets/projets/formation" + img);
+        return images;
+    }
+    function getImgCoverSkills(img) {
+        let images = require("../../assets/skills" + img);
         return images;
     }
 
@@ -78,7 +82,7 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
                     <div className='collapse-skills'>
                         {skills.map((image, id) => {
                         return <img 
-                                src={image} 
+                                src={getImgCoverSkills(image)} 
                                 alt={image} 
                                 key={id} 
                                 className='collapse-skills-icons'

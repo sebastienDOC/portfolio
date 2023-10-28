@@ -3,7 +3,7 @@
         "contact": [
             {
                 "id": "1",
-                "cover": "https://i.ibb.co/tKS4Zf3/map.png",
+                "cover": "/map.webp",
                 "alt": "Icone de localisation",
                 "href": "https://maps.app.goo.gl/ZzSuJZP1D15M1Q1q9",
                 "title": "Localisation",
@@ -11,7 +11,7 @@
             },
             {
                 "id": "2",
-                "cover": "https://i.ibb.co/VWLHRV8/mail.png",
+                "cover": "/mail.webp",
                 "alt": "Icone de mail",
                 "href": "mailto:sebastiendechand@gmail.com",
                 "title": "Envoyer un e-mail",
@@ -19,7 +19,7 @@
             },
             {
                 "id": "3",
-                "cover": "https://i.ibb.co/cXrM0vW/tel.png",
+                "cover": "/tel.webp",
                 "alt": "Icone de téléphone",
                 "href": "tel:+33623213815",
                 "title": "Numéro de téléphone",
@@ -30,14 +30,14 @@
         "reseaux": [
             {
                 "id": "4",
-                "cover": "https://i.ibb.co/PYDXNR0/linkedin.png",
+                "cover": "/linkedin.webp",
                 "alt": "Logo de Linkedin",
                 "href": "https://www.linkedin.com/in/s%C3%A9bastien-dechand-4653b5265/",
                 "title": "Linkedin"
             },
             {
                 "id": "5",
-                "cover": "https://i.ibb.co/0hLCpYr/github.png",
+                "cover": "/github.webp",
                 "alt": "Logo de GitHub",
                 "href": "https://github.com/sebastienDOC",
                 "title": "GitHub"

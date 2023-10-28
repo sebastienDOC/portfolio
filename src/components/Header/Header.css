@@ -3,7 +3,8 @@ header {
 }
 .header-banniere {
     height: 400px;
-    background-image: url('../../assets/banniere/téléchargement.png');
+    width: 100%;
+    background-image: url('../../assets/banniere/banniere.webp');
     background-position: top 8% left 75%;
     display: flex;
     justify-content: center;
@@ -11,6 +12,7 @@ header {
 }
 img.banniere-logo{
     height: 300px;
+    width: 470px;
 }
 
 /* Responsive */
@@ -20,6 +22,7 @@ img.banniere-logo{
     }
     img.banniere-logo{
         height: 250px;
+        width: 390px;
     }
 }
 @media screen and (max-width: 500px){
@@ -28,5 +31,6 @@ img.banniere-logo{
     }
     img.banniere-logo{
         height: 150px;
+        width: 230px;
     }
 }

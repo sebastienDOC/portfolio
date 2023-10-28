@@ -4,7 +4,7 @@
 }
 .contact-form-title{
     text-align: center;
-    margin-top: 25px;
+    margin: 25px;
 }
 form {
     display: flex;
@@ -12,11 +12,16 @@ form {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 50px 0 0 0;
-    gap: 20px;
+    margin: auto;
+}
+label {
+    width: 90%;
+    margin: 0 5px 5px;
+    text-align: left;
 }
 input {
     width: 90%;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
     border: solid #1E8278 2px;
@@ -27,14 +32,11 @@ input {
 textarea {
     width: 90%;
     height: 150px;
+    margin-bottom: 10px;
     padding: 10px;
     border: solid #1E8278 2px;
     border-radius: 1rem;
     background: none;
-    color: white;
-}
-input::placeholder,
-textarea::placeholder {
     color: white;
 }
 input:focus,
@@ -43,6 +45,7 @@ textarea:focus {
 }
 .contact-form-btn {
     width: 120px;
+    margin: auto;
     padding: 15px;
     cursor: pointer;
     border: solid #1E8278 2px;
@@ -62,9 +65,6 @@ textarea:focus {
     .contact-form {
         width: 50%;
     }
-    form {
-        margin: 40px 0 0 0;
-    }
 }
 @media screen and (max-width: 1000px){
     .contact-form {
@@ -72,16 +72,22 @@ textarea:focus {
         margin-bottom: 25px;
     }
     form {
-        margin: 30px 0 0 0;
+        width: 75%;
     }
 }
 @media screen and (max-width: 800px){
+    .contact-form {
+        width: 80%;
+    }
     form {
-        margin: 25px 0 0 0;
+        width: 90%;
     }
 }
 @media screen and (max-width: 500px){
+    .contact-form {
+        width: 90%;
+    }
     form {
-        margin: 15px 0 0 0;
+        width: 100%;
     }
 }
