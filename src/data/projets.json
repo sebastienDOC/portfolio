@@ -9,7 +9,7 @@
                 "banner": "/banner/alliance.jpg",
                 "altBanner": "Logo d'Alliance Équine",
                 "client": "Lucie souhaite développer son activité avec un site web expliquant en détails celle-ci.",
-                "description": "Elle m'a donc expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et green-code.",
+                "description": "Lucie m'a expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et green-code.",
                 "github": "https://github.com/sebastienDOC/AllianceEquine",
                 "ghpages": "https://sebastiendoc.github.io/AllianceEquine/",
                 "skills": [
@@ -29,7 +29,7 @@
                 "banner": "/banner/argent.png",
                 "altBanner": "Logo d'ArgentBank sur un fond vert",
                 "client": "ArgentBank est une banque en ligne qui souhaite évoluer dans le secteur bancaire.",
-                "description": "ArgentBank me contact pour développer son site web. La mission se déroule en deux phases. Phase 1 : sur la base du site statique, j'ai développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : j'ai mis au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
+                "description": "ArgentBank me contact pour développer son site web. La mission se déroule en deux phases. Phase 1 : sur la base du site statique, je dois développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : je dois mettre au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
                 "github": "https://github.com/sebastienDOC/ArgentBank",
                 "skills": [
                     "https://i.ibb.co/dmYXHtQ/react.png",

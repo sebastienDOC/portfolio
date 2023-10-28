@@ -66,7 +66,7 @@ export default function Filter() {
             </div>
 
             <AnimatePresence>
-                <motion.div layout className='projets-grid'>
+                <motion.div layout className='projets-grid' style={{margin: "auto"}}>
                     {items.map((projets) =>
                         <Projets
                             key={projets.id}

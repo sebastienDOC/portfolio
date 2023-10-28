@@ -11,6 +11,12 @@ export default function Navbar() {
     function handleShowLinks() {
         setShowLinks(!showLinks)
     }
+
+    // if (showLinks) {
+    //     document.body.style.background = "rgba(0,0,0,0.5)";
+    // } else {
+    //     document.body.style.background = "transparent";
+    // }
     return (
         <nav className={showLinks ? 'nav-show' : ''}>
             <a href='#root'>
@@ -19,6 +25,7 @@ export default function Navbar() {
                 </h1>
             </a>
             <ul className='nav-txt'>
+                <div className='nav-bg'></div>
                 <li className='nav-txt-items slideInDown-1'>
                     <a href='#root' className='nav-txt-link'>
                         <i className="fa-solid fa-house-chimney"></i>

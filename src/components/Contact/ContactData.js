@@ -18,7 +18,7 @@ export default function ContactData({id, cover, alt, href, title, description}) 
                 </a>
             <div className='contact_data-flex'>
                 <h4 className='contact_data-title'>{title}</h4>
-                <p className='contact_data-txt'>{description}</p>
+                {description ? <p className='contact_data-txt'>{description}</p> : null}
             </div>
         </div>
     )

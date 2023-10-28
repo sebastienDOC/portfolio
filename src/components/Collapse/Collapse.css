@@ -29,6 +29,9 @@
     border-radius: 25px;
 }
 .collapse-dropup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     position:absolute;
     bottom: 0;
     height : 0;	
@@ -50,6 +53,21 @@
 .collapse-title {
     text-align: center;
 }
+h3.collapse-title {
+    margin: 0;
+}
+h4.collapse-title {
+    margin: 0;
+}
+.collapse-github,
+.collapse-ghpages {
+    margin: 0;
+}
+.underline {
+    text-decoration: underline ;
+    font-size: 18px;
+    font-style: italic;
+}
 .collapse-content {
     display: flex;
     position: fixed;
@@ -68,40 +86,45 @@
 }
 .collapse-content-bg {
     width: 60vw;
+    height: 100vh;
     opacity: 0;
     background-color: black;
 }
 .open-bg {
     opacity: 0.5;
 }
-
 .collapse-content-txt {
     background-color: #1E8278;
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     width: 40vw;
-    padding: 50px 50px 100px;
+    padding: 50px;
+    margin-bottom: 50px;
     overflow: auto;
 }
 .fa-xmark {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 10px;
+    left: 20px;
     font-size: 36px;
     cursor: pointer;
 }
 .collapse-banner {
-    width: 75%;
+    width: 100%;
 }
 .collapse-txt {
     width: 100%;
     text-align: start;
 }
+.collapse-skills {
+    margin: 10px;
+}
 .collapse-skills-icons {
     height: 50px;
-    margin: 25px 15px;
+    margin: 0 15px;
 }
 .collapse-ctn-icons {
     width: 100%;
@@ -114,4 +137,52 @@
 }
 .collapse-icons {
     height: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px){
+    .collapse-content-bg {
+        width: 50vw;
+    }
+    .collapse-content-txt {
+        width: 50vw;
+    }
+    .underline {
+        font-size: 16px;
+    }
+    .collapse-banner {
+        min-height: 120px;
+    }
+}
+@media screen and (max-width: 800px){
+    .collapse-content-bg {
+        width: 25vw;
+    }
+    .collapse-content-txt {
+        width: 75vw;
+    }
+    .collapse-txt {
+        display: flex;
+        flex-direction: column;
+    }
+    .collapse-content-txt {
+        padding: 25px;
+    }
+    .collapse-banner {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px){
+    .collapse-content-bg {
+        width: 0;
+    }
+    .collapse-content-txt {
+        width: 100vw;
+    }
+    .collapse-btn:hover .collapse-dropup {
+        height : 30%;	
+    }
+    .collapse-skills-icons {
+        height: 40px;
+    }
 }

@@ -24,16 +24,21 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
     // Disparition de la scrollbar vertical quand la collapse est ouverte
     if (open) {
         document.body.style.overflow = "hidden";
-        document.body.style.margin = "0 40vw 0 0";
     } else {
         document.body.style.overflow = "initial";
-        document.body.style.margin = "0";
     }
 
     return (
         <div key={key} className='collapse-ctn'>
             
-            <motion.div layout animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 0.7}} className='collapse-btn'>
+            <motion.div 
+                layout 
+                animate={{ opacity: 1, scale: 1 }} 
+                initial={{ opacity: 0, scale: 0 }} 
+                exit={{ opacity: 0, scale: 0 }} 
+                transition={{ duration: 0.7}} 
+                className='collapse-btn'
+            >
                 <img src={getImgCover(cover)} alt={alt} className='collapse-img' onClick={toggle}/>
                 <div className='collapse-dropup'>
                     <h3 className='collapse-title'>{title}</h3>
@@ -59,8 +64,16 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
                     <img src={getImgCover(banner)} alt={altBanner} className='collapse-banner'/>
                     <h3 className='collapse-title'>{title}</h3>
                     <h4 className='collapse-title'>{sub}</h4>
-                    <p className='collapse-txt'>Client : {client}</p>
-                    <p className='collapse-txt'>Description de la mission : {description}</p>
+                    <p className='collapse-txt'>
+                        <span className='underline'>
+                            Client : 
+                        </span> {client}
+                    </p>
+                    <p className='collapse-txt'>
+                        <span className='underline'>
+                            Description de la mission : 
+                        </span> {description}
+                    </p>
                     
                     <div className='collapse-skills'>
                         {skills.map((image, id) => {

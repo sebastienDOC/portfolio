@@ -1,5 +1,5 @@
 import './Presentation.css'
-import Seb from '../../assets/photo/seb.jpg'
+import Seb from '../../assets/photo/seb.png'
 
 export default function Presentation() {
     return (

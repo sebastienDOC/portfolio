@@ -4,6 +4,7 @@
 }
 .contact-form-title{
     text-align: center;
+    margin-top: 25px;
 }
 form {
     display: flex;
@@ -11,7 +12,7 @@ form {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 55px 0;
+    margin: 50px 0 0 0;
     gap: 20px;
 }
 input {
@@ -41,7 +42,7 @@ textarea:focus {
     background-color: #1E8278;
 }
 .contact-form-btn {
-    width: 30%;
+    width: 120px;
     padding: 15px;
     cursor: pointer;
     border: solid #1E8278 2px;
@@ -54,4 +55,33 @@ textarea:focus {
     background-color: #1E8278;
     transform: scale(1.2);
     transition: all 0.5s;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px){
+    .contact-form {
+        width: 50%;
+    }
+    form {
+        margin: 40px 0 0 0;
+    }
+}
+@media screen and (max-width: 1000px){
+    .contact-form {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    form {
+        margin: 30px 0 0 0;
+    }
+}
+@media screen and (max-width: 800px){
+    form {
+        margin: 25px 0 0 0;
+    }
+}
+@media screen and (max-width: 500px){
+    form {
+        margin: 15px 0 0 0;
+    }
 }

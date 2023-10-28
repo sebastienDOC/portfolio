@@ -20,6 +20,9 @@
 .skills-img {
     height: 80px;
 }
+.skills-title {
+    margin: 10px 0;
+}
 
 /* Responsive */
 @media screen and (max-width: 1000px){

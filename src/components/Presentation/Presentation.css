@@ -1,6 +1,6 @@
 /* Présentation */
 .presentation-ctn {
-    width: 80%;
+    width: 60%;
     margin: 50px auto;
     padding: 0;
     display: flex;
@@ -18,9 +18,13 @@
 }
 
 /* Responsive */
+@media screen and (max-width: 1200px){
+    .presentation-ctn {
+        width: 80%;
+    }
+}
 @media screen and (max-width: 1000px){
     .presentation-ctn {
-        width: 90%;
         margin: 40px auto;
         gap: 40px;
     }
@@ -30,7 +34,6 @@
 }
 @media screen and (max-width: 800px){
     .presentation-ctn {
-        width: 95%;
         margin: 30px auto;
         gap: 25px;
     }
@@ -42,11 +45,16 @@
 }
 @media screen and (max-width: 500px){
     .presentation-ctn {
-        width: 100%;
+        width: 90%;
+        flex-direction: column;
         margin: 15px auto;
-        gap: 10px;
+        gap: 20px;
+    }
+    .presentation-flex_col {
+        text-align: center;
     }
     .presentation-img {
         height: 200px;
+        width: 150px;
     }
 }

@@ -54,6 +54,14 @@ img.nav-logo {
         padding: 0;
         padding: 10px 10%;
     }
+    .nav-bg {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        right: -100vw;
+        background: rgba(0,0,0,0.5);
+        transition: all 0.7s;
+    }
     .nav-txt{
         display: flex;
         flex-direction: column;
@@ -63,13 +71,17 @@ img.nav-logo {
         bottom: 0;
         right: -20vw;
         height: 100vh;
-        padding: 2rem;
+        padding: 0 2rem;
         width: 0;
         background-color: black;
         transition: all 0.7s;
     }
+    .nav-show .nav-bg {
+        right: 0;
+        transition: all 0.7s;
+    }
     .nav-show .nav-txt {
-        width: 20vw;
+        width: 200px;
         right: 0;
         transition: all 0.7s;
     }
@@ -77,7 +89,7 @@ img.nav-logo {
         display: block;
         padding: 5px;
         margin-bottom: 10px;
-
+        font-size: 20px;
     }
     .nav-txt-link::after{
         height: 2px;
@@ -154,10 +166,16 @@ img.nav-logo {
     }
 }
 @media screen and (max-width: 500px){
-    nav {
-        height: 40px;
-    }
     img.nav-logo {
         height: 40px;
+    }
+    .nav-txt {
+        padding: 0 1rem;
+    }
+    .nav-show .nav-txt {
+        width: 150px;
+    }
+    .nav-txt-link{
+        font-size: 16px;
     }
 }

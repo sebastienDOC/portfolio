@@ -3,6 +3,7 @@
     background-color: black;
     padding: 10px;
     text-align: center;
+    margin: 0;
 }
 @media screen and (max-width: 500px){
     .copyright {
