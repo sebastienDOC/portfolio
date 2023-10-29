@@ -45,6 +45,11 @@ img.nav-logo {
     display: none;
     padding: 0;
 }
+.nav-txt-cv a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
 .nav-txt-link-cv {
     display: none;
 }
@@ -151,6 +156,9 @@ img.nav-logo {
     .nav-txt-link-cv {
         display: block;
     }
+    .nav-txt-link-cv a {
+        font-size: 20px;
+    }
     .nav-txt-cv {
         display: none;
     }
@@ -167,6 +175,9 @@ img.nav-logo {
         width: 150px;
     }
     .nav-txt-link{
+        font-size: 16px;
+    }
+    .nav-txt-link-cv a {
         font-size: 16px;
     }
 }

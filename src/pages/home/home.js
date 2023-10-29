@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <main id='main'>
             <section id='home-presentation'>
-                <h2>Présentation</h2>
+                <h2 className='home-presentation-title'>Présentation</h2>
                 <Presentation />
             </section>
             <div className='separate'></div>

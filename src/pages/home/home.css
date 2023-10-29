@@ -3,6 +3,11 @@
     margin: 0 auto 50px;
     border-bottom: solid #1E8278 3px;
 }
+/* Présentation */
+.home-presentation-title {
+    margin-top: 50px;
+}
+
 /* Compétences */
 .home-skills-grid {
     width: 80%;
@@ -19,6 +24,9 @@
 
 /* Responsive */
 @media screen and (max-width: 1000px){
+    .home-presentation-title {
+        margin-top: 40px;
+    }
     .home-skills-grid {
         width: 90%;
         margin: 40px auto;
@@ -28,6 +36,9 @@
     }
 }
 @media screen and (max-width: 800px){
+    .home-presentation-title {
+        margin-top: 30px;
+    }
     .home-skills-grid {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;

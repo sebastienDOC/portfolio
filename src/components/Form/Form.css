@@ -43,6 +43,10 @@ input:focus,
 textarea:focus {
     background-color: #1E8278;
 }
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: white;
+}
 .contact-form-btn {
     width: 120px;
     margin: auto;
@@ -58,6 +62,18 @@ textarea:focus {
     background-color: #1E8278;
     transform: scale(1.2);
     transition: all 0.5s;
+}
+.contact-modal {
+    position: absolute;
+    top: 30%;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 25px 50px;
+}
+.contact-modal-title,
+.contact-modal-txt {
+    text-align: center;
 }
 
 /* Responsive */

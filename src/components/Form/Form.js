@@ -1,24 +1,42 @@
 // CSS
 import './Form.css'
 // EmailJS
-import { useRef} from "react";
 import emailjs from "@emailjs/browser";
+// React
+import { useRef, useState} from "react";
+// Composant
+import Modal from '../Modal/Modal';
 
 export default function Form() {
+    const [titleMessage, setTitleMessage] = useState('')
+    const [statusMessage, setStatusMessage] = useState('')
+
+    // State pour ouverture/fermeture de la modale
+    const [isOpen, setIsOpen] = useState(false);
+    const handleOpen = () => {
+        const timer =  setTimeout(() => {
+            setIsOpen(true);
+         }, 1000)
+          return () => clearTimeout(timer);
+     }
+
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm("PortfolioContact", "template_portfolio", form.current, "LXBWqb7aKKAacDPe4")
         .then(
           (result) => {
-            console.log(result.text);
+            if (result.text === 'OK') {
+                setTitleMessage("Message envoyé")
+                setStatusMessage("Votre message à bien été envoyé ! Je prendrai contact avec vous le plus rapidement possible.")
+                form.current.reset()
+            };
           },
           (error) => {
+            setTitleMessage("Message non envoyé")
+            setStatusMessage("Une erreur s'est porduite, votre message n'a pas été envoyé. Veuillez réessayer.")
             console.log(error.text);
           }
-        )
-        .then(
-            form.current.reset()
         )
     };
 
@@ -65,8 +83,10 @@ export default function Form() {
                     placeholder='Message *' 
                     required 
                 />
-                <button type="submit" value='submit' className='contact-form-btn'>Envoyer</button>
-            </form>
+                <button type="submit" value='submit' className='contact-form-btn' onClick={handleOpen}>Envoyer</button>
+            </form>           
+            {isOpen && <Modal setIsOpen={setIsOpen} title={titleMessage} status={statusMessage}/>}
+
         </div>
     )
 }

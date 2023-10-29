@@ -1,7 +1,7 @@
 // Composant
 import Collapse from '../Collapse/Collapse'
 
-export default function Projets({id, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills}) {
+export default function Projets({id, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills, type}) {
     return (
         <Collapse  
             key={id}
@@ -17,6 +17,7 @@ export default function Projets({id, title, sub, cover, alt, banner, altBanner, 
             ghpages={ghpages}
             figma={figma}
             skills={skills} 
+            type={type}
         />
     )
 }

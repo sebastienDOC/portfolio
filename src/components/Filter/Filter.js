@@ -83,6 +83,7 @@ export default function Filter() {
                             figma={projets.figma}
                             skills={projets.skills}
                             finished={projets.finished}
+                            type={projets.type}
                         />
                     )}
                 </motion.div>

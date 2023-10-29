@@ -6,10 +6,14 @@ import { useState } from 'react';
 import GitHub from '../../assets/contact/github.webp'
 import Link from '../../assets/contact/link.webp'
 import Figma from '../../assets/contact/figma.webp'
+import OC from '../../assets/logo/oc.webp'
+import Logo from '../../assets/logo/logo2.webp'
+// Data
+import projets from '../../data/projets.json'
 // Motion
 import { motion } from 'framer-motion'
 
-export default function Collapse({key, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills}) {
+export default function Collapse({key, title, sub, cover, alt, banner, altBanner, client, description, github, ghpages, figma, skills, type}) {
     // State pour ouverture/fermeture de la collapse
     const [open, setOpen] = useState(false);
     const toggle = () => {
@@ -43,6 +47,13 @@ export default function Collapse({key, title, sub, cover, alt, banner, altBanner
                 transition={{ duration: 0.7}} 
                 className='collapse-btn'
             >
+                <div className='collapse-logo-ctn'>
+                    {type === 'Formation' ?
+                        <img src={OC} alt="Logo d'OpenClassrooms" className='collapse-logo' /> 
+                        :
+                        <img src={Logo} alt="Logo de Sébastien Dechand" className='collapse-logo' /> 
+                    }
+                </div>
                 <img src={getImgCover(cover)} alt={alt} className='collapse-img' onClick={toggle}/>
                 <div className='collapse-dropup'>
                     <h3 className='collapse-title'>{title}</h3>

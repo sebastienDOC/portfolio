@@ -4,6 +4,7 @@ import './Navbar.css'
 import { useState } from 'react';
 // Images
 import logo2 from '../../assets/logo/logo2.webp';
+import pdf from '../../assets/photo/CV.pdf'
 
 export default function Navbar() {
     const [showLinks, setShowLinks] = useState(false)
@@ -47,14 +48,16 @@ export default function Navbar() {
                 </li>
                 <li className='nav-txt-items slideInDown-6'>
                     <div className='nav-txt-link nav-txt-link-cv'>
-                        CV
+                        <a href={pdf} target='_blank'>CV</a>
                     </div>
                 </li> 
             </ul>
             <button className='nav-txt-burger' onClick={handleShowLinks} aria-label="Menu de navigation">
                 <span className='nav-txt-burger-bar'></span>
             </button>
-            <div className='nav-txt-cv'>CV</div>
+            <div className='nav-txt-cv'>
+                <a href={pdf} target='_blank'>CV</a>
+            </div>
         </nav>
     )
 }  
