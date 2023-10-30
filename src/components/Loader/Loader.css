@@ -1,21 +1,22 @@
 .loader-ctn {
     display: flex;
+    justify-content: center;
     position: relative;
     width: 100vw;
     height: 100vh;
     animation: 5s fade 1 forwards;
 }
 iframe {
-    border: none;
+    height: 80vh;
     width: 100vw;
-    height: 100vh;
+    border: none;
 }
 .loading {
     width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
-    bottom: 10%;
+    bottom: 20%;
     gap: 1%;
 }
 .loading-letter {
@@ -24,13 +25,14 @@ iframe {
     color: #26A499;
     animation: anim 2s infinite; 
 }
+
+/* Animation */
 @keyframes anim {
     0% { transform: scale(1); color: #26A499; text-shadow: 0 0 7px #1E8278; }
     50% { transform: scale(1.2); color: #1E8278; text-shadow: 0 0 7px #1E8278; }
     90% { color: #26A499; opacity: 0.8; text-shadow: none;}
     100% { transform: rotate(360deg); }
 }
-/* Animation */
 .anim-1 {         
     animation-delay: 0.2s;
 }
@@ -60,4 +62,29 @@ iframe {
 }
 .anim-10 {         
     animation-delay: 2s;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px){
+    iframe {
+        height: 70vh;
+    }
+    .loading {
+        bottom: 25%;
+    }
+    .loading-letter {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    iframe {
+        height: 100vh;
+    }
+    .loading {
+        top: 20%;
+        gap: 2%;
+    }
+    .loading-letter {
+        font-size: 30px;
+    }
 }
