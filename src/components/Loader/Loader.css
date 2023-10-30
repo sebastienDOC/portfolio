@@ -1,0 +1,63 @@
+.loader-ctn {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    animation: 5s fade 1 forwards;
+}
+iframe {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+}
+.loading {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10%;
+    gap: 1%;
+}
+.loading-letter {
+    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+    color: #26A499;
+    animation: anim 2s infinite; 
+}
+@keyframes anim {
+    0% { transform: scale(1); color: #26A499; text-shadow: 0 0 7px #1E8278; }
+    50% { transform: scale(1.2); color: #1E8278; text-shadow: 0 0 7px #1E8278; }
+    90% { color: #26A499; opacity: 0.8; text-shadow: none;}
+    100% { transform: rotate(360deg); }
+}
+/* Animation */
+.anim-1 {         
+    animation-delay: 0.2s;
+}
+.anim-2 {         
+    animation-delay: 0.4s;
+}
+.anim-3 {         
+    animation-delay: 0.6s;
+}
+.anim-4 {         
+    animation-delay: 0.8s;
+}
+.anim-5 {         
+    animation-delay: 1s;
+}
+.anim-6 {         
+    animation-delay: 1.2s;
+}
+.anim-7 {         
+    animation-delay: 1.4s;
+}
+.anim-8 {         
+    animation-delay: 1.6s;
+}
+.anim-9 {         
+    animation-delay: 1.8s;
+}
+.anim-10 {         
+    animation-delay: 2s;
+}

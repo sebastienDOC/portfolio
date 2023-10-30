@@ -21,7 +21,7 @@ img.nav-logo {
     position: relative;
     padding-bottom: 5px;
 }
-.nav-txt-link::after{
+.nav-txt-link::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -44,6 +44,16 @@ img.nav-logo {
     border: none;
     display: none;
     padding: 0;
+}
+.nav-txt-cv {
+    background: #26A499;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.nav-txt-cv:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .nav-txt-cv a{
     cursor: pointer;
@@ -93,7 +103,7 @@ img.nav-logo {
         display: block;
         cursor: pointer;
     }
-    /* */
+    /* Burger */
     .nav-txt-burger-bar,
     .nav-txt-burger-bar::before,
     .nav-txt-burger-bar::after {
@@ -127,7 +137,7 @@ img.nav-logo {
     .nav-show .nav-txt-burger-bar::after {
         transform: rotate(45deg);
     }
-    /* */
+    /* Animation Burger */
     .nav-txt-items  {
         transform: translateY(100vh);
     }
@@ -152,7 +162,7 @@ img.nav-logo {
     .nav-show .slideInDown-6 {
         transition: all 1.6s ease-out;
     }
-    /* */
+    /* CV */
     .nav-txt-link-cv {
         display: block;
     }
