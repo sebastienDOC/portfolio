@@ -57,12 +57,14 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     overflow: hidden;
-    transition: height 0.7s;
+    transition: all 0.7s;
+    opacity: 0;
     color: white;
 }
 .collapse-btn:hover .collapse-dropup {
-    height : 35%;	
-    transition: height 0.7s;
+    height : 30%;	
+    opacity: 1;
+    transition: all 0.7s;
     cursor: auto;
 }
 .collapse-title {

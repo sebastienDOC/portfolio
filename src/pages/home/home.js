@@ -18,15 +18,27 @@ export default function Home() {
             <div className='separate'></div>
             <section id='home-skills'>
                 <h2>Compétences</h2>
-                <div className='home-skills-grid'>
-                    {skills.map((skill) => 
-                        <Skills 
-                            key={skill.id}
-                            cover={skill.cover}
-                            alt={skill.alt}
-                            title={skill.title}
-                        />
-                    )}
+                <div className='home-skills-flex'>
+                    <div className='home-skills-grid'>
+                        {skills[0].principaux.map((skill) => 
+                            <Skills 
+                                key={skill.id}
+                                cover={skill.cover}
+                                alt={skill.alt}
+                                title={skill.title}
+                            />
+                        )}
+                    </div>
+                    <div className='home-skills-second'>
+                        {skills[1].secondaires.map((skill) => 
+                            <Skills 
+                                key={skill.id}
+                                cover={skill.cover}
+                                alt={skill.alt}
+                                title={skill.title}
+                            />
+                        )}
+                    </div>
                 </div>
             </section>
             <div className='separate'></div>

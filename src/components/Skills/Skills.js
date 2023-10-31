@@ -7,7 +7,7 @@ export default function Skills({id, cover, alt, title }) {
         return images;
     }
 	return (
-		<div key={id} className='skills-ctn'>
+        <div key={id} className='skills-ctn'>
             <img 
                 src={getImgCover(cover)}
                 alt={alt}  

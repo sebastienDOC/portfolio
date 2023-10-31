@@ -1,50 +1,82 @@
 [
     {
-        "id": "1",
-        "cover": "/html.webp",
-        "alt": "Logo HTML",
-        "title": "HTML 5"
+        "principaux" : [
+            {
+                "id": "1",
+                "cover": "/html.webp",
+                "alt": "Logo HTML",
+                "title": "HTML 5"
+            },
+            {
+                "id": "2",
+                "cover": "/css.webp",
+                "alt": "Logo CSS",
+                "title": "CSS 3"
+            },
+            {
+                "id": "3",
+                "cover": "/sass.webp",
+                "alt": "Logo SASS",
+                "title": "SASS"
+            },
+            {
+                "id": "4",
+                "cover": "/js.webp",
+                "alt": "Logo JavaScript",
+                "title": "JavaScript"
+            },
+            {
+                "id": "5",
+                "cover": "/react.webp",
+                "alt": "Logo React",
+                "title": "React"
+            },
+            {
+                "id": "6",
+                "cover": "/redux.webp",
+                "alt": "Logo Redux",
+                "title": "Redux"
+            },
+            {
+                "id": "7",
+                "cover": "/node.webp",
+                "alt": "Logo NodeJS",
+                "title": "NodeJS"
+            },
+            {
+                "id": "8",
+                "cover": "/vscode.webp",
+                "alt": "Logo VS Ccode",
+                "title": "VS Code"
+            }
+        ]
     },
     {
-        "id": "2",
-        "cover": "/css.webp",
-        "alt": "Logo CSS",
-        "title": "CSS 3"
-    },
-    {
-        "id": "3",
-        "cover": "/sass.webp",
-        "alt": "Logo SASS",
-        "title": "SASS"
-    },
-    {
-        "id": "4",
-        "cover": "/js.webp",
-        "alt": "Logo JavaScript",
-        "title": "JavaScript"
-    },
-    {
-        "id": "5",
-        "cover": "/react.webp",
-        "alt": "Logo React",
-        "title": "React"
-    },
-    {
-        "id": "6",
-        "cover": "/redux.webp",
-        "alt": "Logo Redux",
-        "title": "Redux"
-    },
-    {
-        "id": "7",
-        "cover": "/github.webp",
-        "alt": "Logo Github",
-        "title": "GitHub"
-    },
-    {
-        "id": "8",
-        "cover": "/swagger.webp",
-        "alt": "Logo Swagger",
-        "title": "Swagger"
+        "secondaires" : [
+            {
+                "id": "9",
+                "cover": "/github.webp",
+                "alt": "Logo Github",
+                "title": "GitHub"
+            },
+            {
+                "id": "10",
+                "cover": "/swagger.webp",
+                "alt": "Logo Swagger",
+                "title": "Swagger"
+            },
+            {
+                "id": "11",
+                "cover": "/notion.webp",
+                "alt": "Logo Notion",
+                "title": "Notion"
+            },            
+            {
+                "id": "12",
+                "cover": "/seo.webp",
+                "alt": "Logo SEO",
+                "title": "SEO"
+            }
+        ]
     }
 ]

@@ -13,12 +13,6 @@ export default function Form() {
 
     // State pour ouverture/fermeture de la modale
     const [isOpen, setIsOpen] = useState(false);
-    const handleOpen = () => {
-        const timer =  setTimeout(() => {
-            setIsOpen(true);
-         }, 1000)
-          return () => clearTimeout(timer);
-     }
 
     const form = useRef()
     const sendEmail = (e) => {
@@ -26,6 +20,7 @@ export default function Form() {
         emailjs.sendForm("PortfolioContact", "template_portfolio", form.current, "LXBWqb7aKKAacDPe4")
         .then(
           (result) => {
+            setIsOpen(true);
             if (result.text === 'OK') {
                 setTitleMessage("Message envoyé")
                 setStatusMessage("Votre message à bien été envoyé ! Je prendrai contact avec vous le plus rapidement possible.")
@@ -33,8 +28,9 @@ export default function Form() {
             };
           },
           (error) => {
+            setIsOpen(true);
             setTitleMessage("Message non envoyé")
-            setStatusMessage("Une erreur s'est porduite, votre message n'a pas été envoyé. Veuillez réessayer.")
+            setStatusMessage("Une erreur s'est produite, votre message n'a pas été envoyé. Veuillez réessayer.")
             console.log(error.text);
           }
         )
@@ -83,7 +79,7 @@ export default function Form() {
                     placeholder='Message *' 
                     required 
                 />
-                <button type="submit" value='submit' className='contact-form-btn' onClick={handleOpen}>Envoyer</button>
+                <button type="submit" value='submit' className='contact-form-btn' >Envoyer</button>
             </form>           
             {isOpen && <Modal setIsOpen={setIsOpen} title={titleMessage} status={statusMessage}/>}
 

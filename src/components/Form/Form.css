@@ -60,7 +60,7 @@ textarea:focus::placeholder {
 }
 .contact-form-btn:hover {
     background-color: #1E8278;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.5s;
 }
 .contact-modal {

@@ -9,15 +9,32 @@
 }
 
 /* Compétences */
-.home-skills-grid {
+.home-skills-flex {
     width: 80%;
+    display: flex;
     margin: 50px auto;
-    padding: 25px 0;
+    justify-content: center;
+    gap: 25px;
+}
+.home-skills-grid {
+    width: 50%;
+    padding: 25px;
     gap: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    border-radius: 25px;
+    background-color: #1E8278;
+}
+.home-skills-second {
+    width: 24%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
     border-radius: 25px;
     background-color: #1E8278;
 }
@@ -27,9 +44,16 @@
     .home-presentation-title {
         margin-top: 40px;
     }
-    .home-skills-grid {
-        width: 90%;
+    .home-skills-flex {
         margin: 40px auto;
+    }
+    .home-skills-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .home-skills-second {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
     .separate {
         margin: 0 auto 40px;
@@ -39,18 +63,39 @@
     .home-presentation-title {
         margin-top: 30px;
     }
-    .home-skills-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 15px;
-        margin: 30px auto;
-    }
     .separate {
         margin: 30px auto ;
     }
+    .home-skills-flex {
+        width: 90%;
+        margin: 30px auto;
+        flex-direction: column;
+    }
+    .home-skills-grid {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: auto;
+        padding: 15px;
+    }
+    .home-skills-second {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: auto;
+        padding: 15px;
+    }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
+    .home-skills-flex {
+        width: 80%;
+        gap: 15px;
+        margin: 15px auto;
+    }
     .home-skills-grid {
         grid-template-columns: 1fr 1fr;
-        margin: 15px auto;
+        gap: 10px;
+    }
+    .home-skills-second {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 }
