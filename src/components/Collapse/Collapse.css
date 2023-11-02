@@ -107,6 +107,7 @@ h4.collapse-title {
     width: 40vw;
     padding: 50px;
     margin-bottom: 50px;
+    gap: 25px;
     overflow: auto;
 }
 .open {
