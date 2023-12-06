@@ -8,27 +8,32 @@ import Loader from './components/Loader/Loader';
 import { useState } from 'react'
 
 export default function App() {
-    const [loading, setLoading] = useState(true)
-    const main = document.getElementById('main')
+    // const [loading, setLoading] = useState(true)
+    // const main = document.getElementById('main')
 
-    if(!main) {
-        setTimeout(() => {
-            setLoading(false);
-        }, 5000)
-    }
+    // if(!main) {
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 5000)
+    // }
 
     return (
-        <div>
-            <Loader />
-            {!loading ? 
-                <div id='main'>
-                    <Navbar />
-                    <Header />
-                    <Home />
-                    <Copyright />
-                </div>
-            :
-                null }
+        <div id='main'>
+            <Navbar />
+            <Header />
+            <Home />
+            <Copyright />
+
+            {/* <Loader />
+                {!loading ? 
+                    <div id='main'>
+                        <Navbar />
+                        <Header />
+                        <Home />
+                        <Copyright />
+                    </div>
+                :
+                    null } */}
         </div>
     )
 }
